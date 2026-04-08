@@ -1,0 +1,31 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(143, 226, 226);
+  /* flex-direction: column; */
+  flex-direction: column-reverse;
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
+  height: 500px;
+  align-items: center;
+  align-content: center;
+  gap: 2rem;
+}
+
+.container .item {
+  background-color: rgb(244, 243, 242);
+  border: 1px solid black;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+}
