@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.main-container {
+  display: flex; /* Flexbox [cite: 11] */
+  flex: 1;
+}
+
+aside {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+main {
+  flex: 3;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* [cite: 12] */
+  align-items: flex-start; /* [cite: 13] */
+}
+
+#preview-card {
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
